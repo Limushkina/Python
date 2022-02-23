@@ -1,0 +1,10 @@
+# Пользователь задаёт две строки. Определить количество вхождений одной строки в другой.
+a = input('Введите первую строку:')
+b = input('Введите вторую строку:')
+set_a = set(a)
+set_b = set(b)
+print(set_a)
+print(set_b)
+res = set_a.intersection(set_b)
+print(res)
+print('Количество вхождений:', len(res))
