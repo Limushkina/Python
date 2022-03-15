@@ -3,6 +3,7 @@
 # a = random.randint(1, 1000)
 # print(a)
 a = int(input('Введите число:'))
+
 if a % 10 == 0 and a % 15 == 0 and a % 30 != 0:
     print(True)
 else:

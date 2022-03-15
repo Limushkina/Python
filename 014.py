@@ -1,5 +1,6 @@
 # Подсчитать сумму цифр в вещественном числе
-a = int(input('Введите число:'))
 import math
-sum = sum(a)
-print(sum)
+
+a = str(input('Введите число:'))
+a = a.replace('.', '')
+print(sum(map(int,str(a))))
